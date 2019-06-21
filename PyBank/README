@@ -1,0 +1,10 @@
+This python generates a file with the basic data of Profit and Losses from the Budget Data file.
+The final report gives the following information in a text file
+
+Financial Analysis
+-------------------------------
+Total Months: 86
+Total: $38382578
+Average Change: $446309
+Greatest Increase in Profits: Feb-2012 $1170593
+Greatest Decrease in Profits: Sep-2013 $-1196225

@@ -1,6 +1,6 @@
-The python script will determine will retrieve the information from the file HWK 03 Election Data.csv and determine who were the candidates in the Poll, votes that each of them had and who is the winner.
+The python script retrieves the information from the file HWK 03 Election Data.csv and determines who the candidates were, votes that each of them had and who is the winner.
 
-It will show in the terminal the results and will print them to a text file.
+It will show in the terminal the results and will print them to a text file ("HWK 03 Final Report Election Data.txt") in the current Folder.
 
 This is a preview of the information given:
 Election Results

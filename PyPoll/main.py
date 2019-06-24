@@ -43,7 +43,7 @@ print(line2)
 print(line3)
 print(line2)
 
-text_file=open(finalresults, "w+") #Rewrite Final report with actual values
+text_file=open(finalresults, "w+") #Rewrites Final report with actual values
 text_file.write(line1 + "\n" + #+ "\n" + to print in next line
     line2+ "\n" +
     line3+ "\n" +
@@ -57,7 +57,7 @@ for name in Candidates: #Prints the information for each candidate in Candidate 
     currentline=name + ": " +  str(round(Votes[counter]/Voters*100,5))+"% (" + str(Votes[counter]) + " votes)"
     print(currentline)
     text_file=open(finalresults,"a") 
-    text_file.write(currentline+ "\n") #Opens text file and prints the line in the file, without earasing the past lines printed
+    text_file.write(currentline+ "\n") #Opens text file and prints the line in the file, without erasing the past lines printed
     text_file.close
     if Votes[counter]>VotesWinner: 
         VotesWinner=Votes[counter]#defines if the current name in Candidates has more votes than the last one, 
